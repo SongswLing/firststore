@@ -1,0 +1,75 @@
+*{
+    margin: 0 ;
+    padding: 0;;
+}
+.box{
+    width: 100%;
+    height: 75px;
+    background-color: #5c7893;
+    display: flex;
+    position: relative;
+}
+@font-face {
+	font-family:"logoft";
+	src: url("../fonts/PRISTINA.TTF");
+}
+.navbar{
+    min-height: 75px !important;
+}
+ /* #navbar-menu{
+    min-height: 75px;
+    display: flex;
+} */
+.navbar-brand {
+	color: #000000 !important;
+	font-family: "logoft";
+	font-size: 4rem !important;
+    min-height: 75px;
+    margin-top: 5px;
+} 
+.navbar-brand img{
+    transform: scale(0.5);
+    margin-left: -45px !important;
+    margin-top: -17px;
+}
+.onen img{
+    transform: scale(1.4);
+    margin: auto;
+}
+.navbar-inverse{
+	background-color: #5c7893 !important;
+	border: none !important;
+	opacity: .9;
+}
+.navbar-nav  li a{
+    min-height: 75px;
+    font-size: 2rem;
+    line-height: 75px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    font-family: "黑体";
+}
+.carousel-indicators{
+    bottom: 80px;
+}
+@media (max-width:768px){
+    .navbar-collapse{
+        max-height: 500px !important;
+    }
+    .cative  a{
+        line-height: 30px !important;
+        font-size: 1.5rem !important;
+    }
+}
+.carousel{
+	height: 970px;	/* width: 100% !important; */
+}
+.item img{
+	height: 970px !important;
+}
+.logo{
+    font-family: "logoft";
+    font-size: 2.5rem;
+    padding-left: 450px;
+    line-height: 75px;
+}
